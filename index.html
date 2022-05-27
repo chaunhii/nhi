@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Furniture Website</title>
+  </head>
+  <body>
+    <nav class="container navbar">
+      <div class="left-nav">
+        <h1 class="logo">
+          <img
+            src="https://assets.website-files.com/61003e54d0ee8c281a970a66/612867872e4cd207afee36c1_logo-shopkeeper-x-webflow-template.svg"
+            alt="logo"
+            width="170px"
+            height="auto"
+          />
+        </h1>
+        <ul class="menu ml-5">
+          <li class="menu-item">Home</li>
+          <li class="menu-item">About</li>
+          <li class="menu-item">Products</li>
+          <li class="menu-item">Pages</li>
+          <li class="menu-item">Contact</li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <div class="search-bar">
+          <input placeholder="Search" type="text" class="search" />
+          <ion-icon class="search-outline" name="search-outline"></ion-icon>
+        </div>
+        <div class="cart">
+          <ion-icon name="bag-outline"></ion-icon>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero container mx-auto">
+        <h1 class="hero-title">Collection 1</h1>
+        <p class="hero-description">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit facilisi
+          pellentesque cursus eget morbi sagittis sagittis commodo massa aliquam
+        </p>
+        <button class="btn btn-secondary hero-btn">Explore Products</button>
+      </section>
+      <section class="products row container mx-auto">
+        <div class="col category">
+          <h3 class="category-title">Category</h3>
+          <ul class="list-category">
+            <li class="item-category">
+              <p>Sofas</p>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </li>
+            <li class="item-category">
+              <p>Decoration</p>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </li>
+            <li class="item-category">
+              <p>Chairs</p>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </li>
+            <li class="item-category">
+              <p>Plant</p>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </li>
+          </ul>
+        </div>
+        <div class="col-8 row products-list g-5">
+          <div class="product col-6 mt-0">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c9598970a77/6108a380b67952653f027bac_lisabo-dinning-table-shop-x-webflow-template.jpg"
+              alt="product"
+              class="product-img"
+              height="auto"
+              width="100%"
+            />
+            <div class="product-metadata">
+              <p class="price">29.00 USD</p>
+              <h3 class="product-name">Lisabo Dinning Table</h3>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+          <div class="product col-6 mt-0">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c9598970a77/6108a0f7003bdd81d3dd7c51_wood-desk-lamp-shop-x-webflow-template.jpg"
+              alt="product"
+              class="product-img"
+              height="auto"
+              width="100%"
+            />
+            <div class="product-metadata">
+              <p class="price">79.00 USD</p>
+              <h3 class="product-name">Wood Desk Lamp</h3>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+          <div class="product col-6">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c9598970a77/6108a2a0fa4210417f4f88c7_rounded-wood-table-shop-x-webflow-template.jpg"
+              alt="product"
+              class="product-img"
+              height="auto"
+              width="100%"
+            />
+            <div class="product-metadata">
+              <p class="price">129.00 USD</p>
+              <h3 class="product-name">Rounded Wood Table</h3>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+          <div class="product col-6">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c9598970a77/6108a31fa1b1d5e49f4ac35b_indoor-lounge-chair-shop-x-webflow-template.jpg"
+              alt="product"
+              class="product-img"
+              height="auto"
+              width="100%"
+            />
+            <div class="product-metadata">
+              <p class="price">79.00 USD</p>
+              <h3 class="product-name">Indoor Lounge Chair</h3>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+          <div class="product col-6">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c9598970a77/6108a20bdacc2f3c8cb8d088_fleur-modern-sofa-shop-x-webflow-template.jpg"
+              alt="product"
+              class="product-img"
+              height="auto"
+              width="100%"
+            />
+            <div class="product-metadata">
+              <p class="price">149.00 USD</p>
+              <h3 class="product-name">Fleur Modern Sofa</h3>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+          <div class="product col-6">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c9598970a77/61089f69851b4dd3cc26aa76_indoor-decoration-plant-shop-x-webflow-template.jpg"
+              alt="product"
+              class="product-img"
+              height="auto"
+              width="100%"
+            />
+            <div class="product-metadata">
+              <p class="price">79.00 USD</p>
+              <h3 class="product-name">Indoor Decoration Plan</h3>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instagram container mx-auto">
+        <h2 class="instagram-title">Follow us on Instagram</h2>
+        <div class="instagram-images-list">
+          <div class="instagram-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f34f41dc7eea41129c_image-7-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+          <div class="instagram-image main-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f257fcce8f78d5fbf4_image-5-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+          <div class="instagram-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f25b033954a3f19a95_image-3-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+          <div class="instagram-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f2f92b92e470cf5960_image-1-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+          <div class="instagram-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f2f92b92e470cf5960_image-1-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+          <div class="instagram-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f3dafde35679c29318_image-6-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+          <div class="instagram-image">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/610c80f3dafde35679c29318_image-6-instagram-shop-x-webflow-template.jpg"
+              alt="instagram"
+              height="auto"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="d-flex w-100">
+          <button class="btn btn-primary mt-4 m-auto">Follow Us</button>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="d-flex w-100 container mx-auto justify-content-between">
+          <h2 class="subscribe-text">
+            Subscribe to receive a 10% coupon for your first order.
+          </h2>
+          <div>
+            <div class="subscribe-input">
+              <input type="email" placeholder="Enter email address" />
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container mx-auto">
+      <div class="row">
+        <div class="col">
+          <div class="logo">
+            <img
+              src="https://assets.website-files.com/61003e54d0ee8c281a970a66/612867872e4cd207afee36c1_logo-shopkeeper-x-webflow-template.svg"
+              alt="logo"
+              width="200px"
+              height="auto"
+            />
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="links">
+            <h5 class="links-title">Menu</h5>
+            <ul class="links-list">
+              <li class="links-item">Home</li>
+              <li class="links-item">Contact</li>
+              <li class="links-item">Email</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="links">
+            <h5 class="links-title">Features</h5>
+            <ul class="links-list">
+              <li class="links-item">Products</li>
+              <li class="links-item">Shopping</li>
+              <li class="links-item">Blog</li>
+              <li class="links-item">Sale</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="links">
+            <h5 class="links-title">Categories</h5>
+            <ul class="links-list">
+              <li class="links-item">Sofas</li>
+              <li class="links-item">Decoration</li>
+              <li class="links-item">Chairs</li>
+              <li class="links-item">Plan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <hr />
+        <div class="content d-flex justify-content-between">
+          <p class="content-text">Copyright © Shopkeeper X</p>
+          <div class="socials">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-google"></ion-icon
+            ><ion-icon name="logo-github"></ion-icon
+            ><ion-icon name="logo-dribbble"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
